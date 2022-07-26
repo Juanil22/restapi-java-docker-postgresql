@@ -1,0 +1,15 @@
+version: "2"
+services:
+  my-app-database-with-compose:
+    image: postgres:13-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      - 'POSTGRES_PASSWORD=123456'
+      - 'POSTGRES_DB=db-java-docker'
+  my-app-with-compose:
+    build: .
+    depends_on:
+      - my-app-database-with-compose
+    ports:
+      - "8080:8002"
