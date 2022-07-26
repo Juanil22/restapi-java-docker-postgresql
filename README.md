@@ -2,7 +2,7 @@
 
 This is a practical exercise to implement docker!
 
-![Screenshot](Screenshot_1.png)
+![Screenshot](containers.png)
 
 
 
