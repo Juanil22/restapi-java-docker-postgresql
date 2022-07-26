@@ -2,6 +2,9 @@
 
 This is a practical exercise to implement docker!
 
+![Screenshot](Screenshot_1.png)
+
+
 
 
 Find out more here:
